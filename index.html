@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/d5c091ca29.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title"><i class="fa fa-diamond" aria-hidden="true"></i> YSI Diamond Survey Form <i class="fa fa-diamond" aria-hidden="true"></i></h1>
+            <h2 id="description"><em>Fill out the form below </em></h2>
+        </header>
+        <main>
+            <form action="" id="survey-form" id="dropdown">
+                <fieldset class="fieldset-1">
+                    <label id="name" id="name-label" for="fname">First Name: <span class="required-field">*</span></label>
+                    <input type="text" 
+                            name="name" 
+                            id="fname"
+                            placeholder="Enter your first name"
+                            required>
+
+                    <label id="name" id="name-label" for="lname">Last Name: <span class="required-field">*</span></label>
+                    <input type="text" 
+                            name="name" 
+                            id="lname"
+                            placeholder="Enter your last name"
+                            required>
+
+                    <label id="email" id="email-label" for="email">Email: <span class="required-field">*</span></label>
+                    <input type="email" 
+                            name="email" 
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+                    
+                    <label id="number" id="number-label" for="age">Age: <span class="required-field">*</span></label>
+                    <input class="label-age" type="number" 
+                            name="age" 
+                            id="age"
+                            min="18"
+                            max="99"
+                            required>
+
+                    <label for="budget">What is your budget? <span class="required-field">*</span> ( Minimum $500 )</label>
+                    <input class="label-budget" type="number" 
+                            name="budget" 
+                            id="age"
+                            min="500"
+                            max="100000"
+                            required>
+                </fieldset>
+                <br>
+                <fieldset class="fieldset-2">
+                    <Legend><strong>*Custom Details*</strong></Legend>
+                    <div id="div-size">
+                        <label for="size">Choose your piece size: </label>
+                        <input type="radio"
+                                name="size"
+                                value="size">25 - 50mm</input>
+                    
+                        <input type="radio"
+                                name="size"
+                                value="size">50 - 75mm</input>
+
+                        <input type="radio"
+                                name="size"
+                                value="size">75 - 100mm</input>
+
+                        <input type="radio"
+                                name="size"
+                                value="size">100mm+</input>
+                    </div>    
+                    
+                    <div id="div-gold">
+                        <label for="gold">Choose your Gold: </label>
+                        <input type="radio"
+                                name="gold"
+                                id="gold">Rose Gold</input>
+                        
+                        <input type="radio"
+                                name="gold"
+                                id="gold">White Gold</input>
+
+                        <input type="radio"
+                                name="gold"
+                                id="gold">Yellow Gold</input>
+
+                        <input type="radio"
+                                name="gold"
+                                id="gold">Platinum</input>
+                    </div>    
+                    
+                    <div id="div-karat">
+                        <label for="karat">Choose your Karat: </label>
+                        <input type="radio"
+                                name="karat"
+                                id="karat">14k </input>
+
+                        <input type="radio"
+                                name="karat"
+                                id="karat">18k </input>
+
+                        <input type="radio"
+                                name="karat"
+                                id="karat">22k </input>
+
+                        <input type="radio"
+                                name="karat"
+                                id="karat">24k </input>
+
+                        <input type="radio"
+                                name="karat"
+                                id="karat">( Ignore if chosen platinum ) </input>
+                    </div>    
+                    
+                    <div id="div-qualities">
+                        <label for="qualities">Choose your diamond qualities: Prices vary based on stone quality*</label>
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">SI2 ( least ) </input>
+
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">SI1 </input>
+
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">VS2 </input>
+
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">VS1 </input>
+
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">VVS2 </input>
+
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">VVS1 </input>
+
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">IF </input>
+
+                        <input type="radio"
+                                name="qualities"
+                                id="qualities">FL ( best ) </input>
+                    </div>    
+                    
+                    <div id="div-finish">
+                        <label for="finish">Choose <em>1 or more</em> type of Finish: <a href="https://www.larsonjewelers.com/about-finishes" target="_blank">**Click Here For Info**</a></label>
+                        <input type="checkbox"
+                            name="finish"
+                            id="finish"
+                            value="Polished">Polished</input>
+                        <input type="checkbox"
+                                name="finish"
+                                id="finish"
+                                value="Satin">Satin</input>
+
+                        <input type="checkbox"
+                                name="finish"
+                                id="finish"
+                                value="Brushed">Brushed</input>
+
+                        <input type="checkbox"
+                                name="finish"
+                                id="finish"
+                                value="Hammered">Hammered</input>
+
+                        <input type="checkbox"
+                                name="finish"
+                                id="finish"
+                                value="Wire Brushed">Wire Brushed</input>
+
+                        <input type="checkbox"
+                                name="finish"
+                                id="finish"
+                                value="Sandblasted">Sandblasted</input>
+                    </div>    
+                    
+                    <div>
+                        <h4>**Every Piece Is Uniquely Made**</h4>
+                        <p>Provide us with a well detailed descriptive information below <i class="far fa-arrow-alt-circle-down"></i></p>
+                        <textarea></textarea>
+
+                        <input type="submit" id="submit">
+                        <input type="reset" class="btn-reset">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <script src="" async defer></script>
+    </body>
+</html>

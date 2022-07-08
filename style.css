@@ -1,0 +1,60 @@
+body {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-image: url(/images/kasper\ logo.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.required-field {
+    color: red;
+}
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+h4 {
+    margin-top: -1px;
+    color: white;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    color: black;
+}
+header {
+    margin-left: 10px;
+}
+main {
+    margin: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+.label-age, .label-budget {
+    color: black;
+}
+legend {
+    margin-bottom: 10px;
+}
+.fieldset-1 > input {
+    display: block;
+    margin-bottom: 10px;
+}
+.fieldset-2 > div > label {
+    display: block;
+    margin-bottom: 10px;
+}
+.fieldset-2 > div > input {
+    margin-bottom: 40px;
+    padding: 5px;
+}
+#submit {
+    color: black;
+}
+.btn-reset {
+    color: black;
+}
